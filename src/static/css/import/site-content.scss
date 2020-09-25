@@ -1,0 +1,42 @@
+.site-content {
+  padding: 100px 0 0 0;
+}
+.blockquote {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  &__item {
+    margin-bottom: 25px;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 25px;
+    background: #EFC622;
+  }
+  &:last-child {
+    margin-bottom: 0;
+    &:after {
+      display: none;
+    }
+  }
+}
+.user-registration {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 50px;
+}
+.user-registration__link {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  svg {
+    width: 82px;
+    height: 16px;
+  }
+}

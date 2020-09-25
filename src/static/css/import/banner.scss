@@ -1,0 +1,20 @@
+.banner-wrapp {
+  position: relative;
+  min-height: 540px;
+}
+.banner {
+  min-height: 540px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.banner-content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -85px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #1D1D1B;
+}
+

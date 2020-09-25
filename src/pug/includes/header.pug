@@ -1,1 +1,24 @@
-p Шапка
+header.header
+    .container
+        .header__wrapp
+            a(href="/").logo
+                svg.logo__svg-ico
+                    use(xlink:href='#logo')
+            nav.nav
+                ul.nav-list
+                    li.nav-list__item
+                        a.nav-list__link Креативные индустрии
+                    li.nav-list__item
+                        a.nav-list__link Новости
+                    li.nav-list__item
+                        a.nav-list__link Участники
+                    li.nav-list__item
+                        a.nav-list__link Программа
+                    li.nav-list__item
+                        a.nav-list__link Посещение
+                a.btn.btn-user-account My Account
+                .search
+                    i.far.fa-search
+
+        .search-input-wrapp
+            input(type="search" placeholder="поиск")

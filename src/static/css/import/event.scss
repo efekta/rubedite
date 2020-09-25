@@ -1,0 +1,43 @@
+.event {
+  display: flex;
+  justify-content: space-between;
+  @media(max-width: 1024px) {
+    flex-wrap: wrap;
+  }
+}
+.event-box {
+  position: relative;
+  width: 22%;
+  min-height: 281px;
+
+  cursor: pointer;
+  img {
+    width: 100%;
+  }
+  @media(max-width: 1024px) {
+    width: 46%;
+    margin: 0 auto 20px auto;
+  }
+  @media(max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.event-box__content {
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+  width: 100%;
+  color: #fff;
+  background: #EFC622;
+  opacity: 0;
+  padding: 20px;
+  transition: all .3s ease-in-out;
+  @media(max-width: 1024px) {
+    opacity: .8;
+    width: 100%;
+  }
+}
+.event-box:hover .event-box__content {
+  opacity: .8;
+}

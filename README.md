@@ -1,4 +1,4 @@
-# rubedite
+# rubedite https://efekta.github.io/rubedite/build/index.html
 
 # Gulp 4. Версия с Pug + SCSS
 Стартовая сборка для Фронтенда
